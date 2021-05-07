@@ -7,23 +7,28 @@ Simple example of behavior patterns for studying purposes.
 
 - [Thematic](#thematic)
 - [Solution](#solution)
+- [Documentation](#documentation)
 - [Program guide](#program-guide)
-- [Aclarations](#aclarations)
 
 ## Thematic
 
-The thematic that I proposed for this project is about a machine that creates glass.
+The thematic that I proposed for this project is about the process of creating glass.
 
 I chose this thematic to implement the **State** behavior pattern.
 
-The states of glass are Sand, Mixed state with other compunds, Melting state, Molding state and the Finished glass state.
+The states of glass are: Sand, Mixed state, Melting state, Molding state and the Finished glass state.
 
-The transition between states is explained by the program when excecuting it.
+The explanation of the transition between states is printed by each state when excecuting the main program (program.cs).
 
 ## Solution
 
-As I mentioned before, I chose to implement this thematic with the **State** behavior pattern.
+As I mentioned before, I chose to implement a solution for this thematic using the **State** behavior pattern.
 
+## Documentation
+
+I added a class diagram and a sequence diagram.
+
+Since the main program (program.cs) just calls 1 method I decided to make the sequence diagram about the "CreateGlass()" process that starts in the GlassCreator class and then starts "creating" glass passing through all the states of glass implemented in the program using the "HandleOperation()" method.
 
 ## Program guide
 
