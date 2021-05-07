@@ -18,7 +18,7 @@ I chose this thematic to implement the **State** behavior pattern.
 
 The states of glass are: Sand, Mixed state, Melting state, Molding state and the Finished glass state.
 
-The explanation of the transition between states is printed by each state when excecuting the main program (program.cs).
+The explanation of each state is printed by each state when excecuting the main program (program.cs).
 
 ## Solution
 
